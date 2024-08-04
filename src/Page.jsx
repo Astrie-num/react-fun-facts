@@ -1,5 +1,5 @@
 import logo from "./logo.png"
-// import index from "index.css"
+import "./index.css"
 
 
 
@@ -12,8 +12,11 @@ export default function Page(){
 
         </div>
         <div className="main">
-            <h1>Fun Facts About React</h1>
-    
+            <div className="h1">
+                <h1>Fun facts about React</h1>
+            </div>
+            
+            <div className="list">
             <ul>
                 <li>Was first released in 2013</li>
                 <li>Was originally created by Jordan Walke</li>
@@ -21,6 +24,8 @@ export default function Page(){
                 <li>Is maintained by Facebook</li>
                 <li>Powers thousands of enterprise apps, including mobile apps</li>
             </ul>
+            </div>
+            
         </div>
         
     </div>
